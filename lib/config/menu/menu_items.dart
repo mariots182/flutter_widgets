@@ -6,7 +6,7 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-  const  MenuItem({
+  const MenuItem({
     required this.title,
     required this.subtitle,
     required this.link,
@@ -18,12 +18,12 @@ class MenuItem {
 const appMenuItem = <MenuItem>[
   MenuItem(
       title: "Botones",
-      subtitle: "boones en fluter",
+      subtitle: "botones en fluter",
       link: "url/",
       icon: Icons.smart_button_outlined),
   MenuItem(
       title: "Tarjetas",
-      subtitle: "boones en fluter",
+      subtitle: "tarjetas en fluter",
       link: "url/",
       icon: Icons.credit_card),
 ];
