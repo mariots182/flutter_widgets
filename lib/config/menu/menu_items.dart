@@ -19,11 +19,11 @@ const appMenuItem = <MenuItem>[
   MenuItem(
       title: "Botones",
       subtitle: "botones en fluter",
-      link: "url/",
+      link: "/buttons",
       icon: Icons.smart_button_outlined),
   MenuItem(
       title: "Tarjetas",
       subtitle: "tarjetas en fluter",
-      link: "url/",
+      link: "/cards",
       icon: Icons.credit_card),
 ];
