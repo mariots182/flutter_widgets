@@ -71,7 +71,7 @@ class _ButtonsView extends StatelessWidget {
                 icon: const Icon(Icons.healing_outlined),
                 style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(colors.primary)),
               ),
-              CustomButton()
+              const CustomButton()
             ]),
       ),
     );
