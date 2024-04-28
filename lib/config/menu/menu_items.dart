@@ -18,12 +18,18 @@ class MenuItem {
 const appMenuItem = <MenuItem>[
   MenuItem(
       title: "Botones",
-      subtitle: "botones en fluter",
+      subtitle: "Botones en flutter",
       link: "/buttons",
       icon: Icons.smart_button_outlined),
   MenuItem(
       title: "Tarjetas",
-      subtitle: "tarjetas en fluter",
+      subtitle: "Tarjetas en flutter",
       link: "/cards",
       icon: Icons.credit_card),
+  MenuItem(
+      title: "Progress Indicator",
+      subtitle: "Generales y controlados",
+      link: "/progress",
+      icon: Icons.refresh_rounded),
+
 ];
