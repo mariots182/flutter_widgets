@@ -34,6 +34,8 @@ class _MapsGoogleScreenState extends State<MapsGoogleScreen> {
           backgroundColor: Colors.green[700],
         ),
         body: Card(
+          elevation: 4,
+          margin: const EdgeInsets.fromLTRB(30, 30, 30, 30),
           child:Padding(
             padding: const EdgeInsets.all(8.0),
             child: GoogleMap(
@@ -45,7 +47,6 @@ class _MapsGoogleScreenState extends State<MapsGoogleScreen> {
               ),
           ),
         )
-  
       ),
     );
   }

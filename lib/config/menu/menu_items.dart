@@ -41,5 +41,16 @@ const appMenuItem = <MenuItem>[
       subtitle: "Maps",
       link: "/maps_google",
       icon: Icons.info_outline),
+  MenuItem(
+      title: "Animated container",
+      subtitle: "Stateful widget animado",
+      link: "/animated",
+      icon: Icons.check_box_outline_blank_rounded),
+
+  MenuItem(
+      title: "UI Controls + Tiles",
+      subtitle: "Serie de controles en Flutter",
+      link: "/ui-controls",
+      icon: Icons.check_box_outline_blank_rounded),
 
 ];
