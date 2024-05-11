@@ -14,7 +14,6 @@ class MenuItem {
   });
 }
 
-
 const appMenuItem = <MenuItem>[
   MenuItem(
       title: "Botones",
@@ -46,11 +45,15 @@ const appMenuItem = <MenuItem>[
       subtitle: "Stateful widget animado",
       link: "/animated",
       icon: Icons.check_box_outline_blank_rounded),
-
   MenuItem(
       title: "UI Controls + Tiles",
       subtitle: "Serie de controles en Flutter",
       link: "/ui-controls",
       icon: Icons.check_box_outline_blank_rounded),
+  MenuItem(
+      title: "Tutorial",
+      subtitle: "Tutorial de la App",
+      link: "/tutorial",
+      icon: Icons.accessible_forward_outlined),
 
 ];
