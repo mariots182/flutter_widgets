@@ -16,6 +16,11 @@ class MenuItem {
 
 const appMenuItem = <MenuItem>[
   MenuItem(
+    title: "Counter",
+    subtitle: "Scroller infinito y pull refresh",
+    link: "/counter",
+    icon: Icons.add),
+  MenuItem(
       title: "Botones",
       subtitle: "Botones en flutter",
       link: "/buttons",
@@ -39,7 +44,7 @@ const appMenuItem = <MenuItem>[
       title: "Google Maps",
       subtitle: "Maps",
       link: "/maps_google",
-      icon: Icons.info_outline),
+      icon: Icons.map_outlined),
   MenuItem(
       title: "Animated container",
       subtitle: "Stateful widget animado",
@@ -49,11 +54,21 @@ const appMenuItem = <MenuItem>[
       title: "UI Controls + Tiles",
       subtitle: "Serie de controles en Flutter",
       link: "/ui-controls",
-      icon: Icons.check_box_outline_blank_rounded),
+      icon: Icons.car_rental_outlined),
   MenuItem(
       title: "Tutorial",
       subtitle: "Tutorial de la App",
       link: "/tutorial",
-      icon: Icons.accessible_forward_outlined),
+      icon: Icons.accessible_rounded),
+  MenuItem(
+      title: "Infinite Scroll & pull",
+      subtitle: "Scroller infinito y pull refresh",
+      link: "/infinite",
+      icon: Icons.list_alt_outlined),
+  MenuItem(
+      title: "Theme changer",
+      subtitle: "Cambiar el tema + Riverpod Provider",
+      link: "/theme-changer",
+      icon: Icons.palette_outlined),
 
 ];

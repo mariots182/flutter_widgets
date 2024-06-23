@@ -34,17 +34,17 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
       appBar: AppBar(title: const Text("Animated container")),
       body: Center(
           child: AnimatedContainer(
-        duration:const Duration(milliseconds: 400),
-        width: width,
-        height: height,
-        decoration: BoxDecoration(
-            color: color,
-            borderRadius: BorderRadius.circular(borderRadius)),
-      )),
-      floatingActionButton: FloatingActionButton(
-        onPressed: changeShape,
-        child: const Icon(Icons.play_arrow_rounded),
-      ),
+              duration: const Duration(milliseconds: 400),
+              width: width,
+              height: height,
+              decoration: BoxDecoration(
+                  color: color, borderRadius: BorderRadius.circular(borderRadius)),
+            )
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: changeShape,
+          child: const Icon(Icons.play_arrow_rounded),
+            ),
     );
   }
 }

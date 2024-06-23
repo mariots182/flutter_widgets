@@ -17,9 +17,7 @@ class UiControlsScreen extends StatelessWidget {
 }
 
 class _UiControlsView extends StatefulWidget {
-  const _UiControlsView({
-    super.key,
-  });
+  const _UiControlsView();
 
   @override
   State<_UiControlsView> createState() => _UiControlsViewState();

@@ -51,7 +51,6 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
         });
       }
 
-      print('${pageViewController.page}');
     });
   }
 
