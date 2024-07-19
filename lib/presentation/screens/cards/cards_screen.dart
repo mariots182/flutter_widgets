@@ -121,7 +121,7 @@ class _CardType3 extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return Card(
-      color: colors.surfaceVariant,
+      color: colors.surfaceContainerHighest,
       shape: RoundedRectangleBorder(
           borderRadius: const BorderRadius.all(Radius.circular(12)),
           side: BorderSide(color: colors.outline)),

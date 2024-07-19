@@ -69,7 +69,7 @@ class _ButtonsView extends StatelessWidget {
               IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.healing_outlined),
-                style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(colors.primary)),
+                style: ButtonStyle(backgroundColor: WidgetStatePropertyAll(colors.primary)),
               ),
               const CustomButton()
             ]),
